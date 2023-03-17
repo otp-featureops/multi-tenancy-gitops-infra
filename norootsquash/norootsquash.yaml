@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: DaemonSet
 metadata:
   name: norootsquash
-  namespace: kube-system
+  namespace: tools
   labels:
     tier: management
     app: norootsquash
