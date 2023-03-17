@@ -36,8 +36,8 @@ spec:
             name: host-systemd
           - mountPath: /host/sys
             name: host-sys
-      imagePullSecrets:
-      - name: ibm-entitlement-key
+      # imagePullSecrets:
+      # - name: ibm-entitlement-key
       tolerations:
       - operator: Exists
       volumes:
